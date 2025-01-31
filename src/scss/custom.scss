@@ -1,0 +1,11 @@
+/* make the customizations */
+$theme-colors: (
+    "primary": #3B5998,
+    "info": #fff59d,
+    // "danger": #d2322d
+    "danger": #f44336,
+    "success": #43a047
+);
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";

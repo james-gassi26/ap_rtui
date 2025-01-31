@@ -1,0 +1,9 @@
+export const token = JSON.parse(localStorage.getItem('token'));
+export const token_expiration = JSON.parse(localStorage.getItem('expiry'));
+export const savedPortal = JSON.parse(localStorage.getItem('portal'));
+export const localStoreUserAccID = JSON.parse(localStorage.getItem('userAccID'));
+export const localStoreBranchID = JSON.parse(localStorage.getItem('branchID'));
+export const reloadCounter = JSON.parse(sessionStorage.getItem('reloadCounter'));
+export const validLicense = JSON.parse(localStorage.getItem('validLicense'));
+export const audio = JSON.parse(localStorage.getItem('audio'));
+export const isIO = JSON.parse(localStorage.getItem('i/o'));
